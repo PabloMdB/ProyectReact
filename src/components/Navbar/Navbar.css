@@ -5,7 +5,7 @@
     padding: 2rem;
     height: 5rem;
     width: 100%;
-    background-color: bisque ;
+    background-color: rgba(64, 179, 233, 0.705) ;
     margin: 0;
 }
 .nav-bar-items{
@@ -18,4 +18,14 @@
 }
 p{
     margin: 0;
+}
+li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.2em;
+}
+.logo{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:underline;
+    color: rgb(44, 106, 148);
 }
