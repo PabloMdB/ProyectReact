@@ -1,11 +1,11 @@
 import './App.css'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import Navbar from './components/Navbar/Navbar';
-import Saludo from './components/Saludo/Saludo';
 function App() {
   return (
   <> 
     <Navbar />
-    <Saludo />
+    <ItemListContainer greetings="Curso de reaaaaaaaact 🤪⭐" />
   </>
   );
 };
